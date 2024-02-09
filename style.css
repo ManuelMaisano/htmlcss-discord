@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+.cointaner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+:root {
+	--color-scondary: #ffffff;
+	--color-primary: #23272a;
+	--color-header-bg: #255ee9;
+	--color-section-bg: #f6f6f6;
+	--color-contrast: #aebbe7;
+}
+header{
+    background-color: var(--color-header-bg);
+    color: var(--color-scondary);
+}
+footer{
+    background-color: var(--color-primary);
+    color: var(--color-scondary);
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+.small-cointaner{
+    max-width: 850px;
+    margin:0 auto;
+    text-align: center;
+}
+#jumbo{
+    background-image: url(./discord-assets/jumbo.png);
+    background-size: cover;
+    min-height: 550px;
+}
+/* utilityflex */
+.d-flex{
+    display: flex;
+}
+.flex-center{
+    align-items: center;
+    align-content: center;
+}
+.row-reverse{
+    flex-direction: row-reverse;
+}
+.space-between{
+    justify-content: space-between;
+}
+/* main */
+.section-bg{
+    background-color: var(--color-section-bg);
+}
+.left{
+    width: 60%;
+}
+.right{
+    width: 40%;
+}
