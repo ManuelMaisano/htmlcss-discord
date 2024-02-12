@@ -28,6 +28,14 @@ header{
     font-size: 15px;
     border: none;
 }
+.btn-2{
+    padding: 12px 15px;
+    border-radius: 25px;
+    background-color: var(--color-primary);
+    color: var(--color-scondary);
+    font-size: 15px;
+    border: none;
+}
 nav.d-flex a {
     color: var(--color-scondary);
     justify-content: center;
@@ -62,7 +70,7 @@ h2{
     max-width: 850px;
     margin:0 auto;
     text-align: center;
-    padding-top: 130px;
+    padding-top: 150px;
 }
 #jumbo{
     background-image: url(./discord-assets/jumbo.png);
@@ -141,7 +149,7 @@ footer div:last-child {
 }
 footer li>a {
     color: var(--color-scondary);
-    font-size: 13px;
+    font-size: 15px;
     text-decoration: none;
 }
 .padding-button {
@@ -151,11 +159,12 @@ section#tecnology img {
     width: 100%;
 
 }
-.flex-column{
-    flex-direction: column;
-}
+
 section#call-to-action button {
     color: var(--color-scondary);
     background-color: #7289DA;
 
+}
+.flex-clumn{
+    flex-direction: column;
 }
