@@ -24,15 +24,25 @@ header{
 footer{
     background-color: var(--color-primary);
     color: var(--color-scondary);
+    max-width: 100%;
+    padding: 40px 20px 10px;
+}
+.text-foot{
+        color: #7289DA;
+        font-size: 20px;
 }
 
 body{
     font-family: 'Noto Sans', sans-serif;
 }
+h2{
+    font-size: 35px;
+}
 .small-cointaner{
     max-width: 850px;
     margin:0 auto;
     text-align: center;
+    padding-top: 130px;
 }
 #jumbo{
     background-image: url(./discord-assets/jumbo.png);
@@ -62,4 +72,52 @@ body{
 }
 .right{
     width: 40%;
+}
+.bg-stars{
+    background-image:url(./discord-assets/stars.svg);
+    text-align: center;
+    
+}
+.left img{
+    width: 100%;
+}
+footer{
+    background-color: var(--color-primary);
+    color: var(--color-scondary);
+    max-width: 100%;
+    padding: 40px 20px 10px;
+}    
+footer div:last-child button {
+    background-color: #7289DA;
+    padding: 12px 15px;
+    border-radius: 25px;
+    font-size: 15px;
+    color: var(--color-scondary);
+    margin-right: 0px;
+    border: none;
+
+
+}
+footer li img{
+    width: 40px;
+}
+footer li {
+    margin-top: 7px;
+}
+footer div:first-child {
+    align-content: flex-start;
+
+
+}
+
+footer div:last-child {
+    padding: 2px;
+    border-top: 2px solid var(--color-contrast);
+
+}
+
+footer li>a {
+    color: var(--color-scondary);
+    font-size: 13px;
+    text-decoration: none;
 }
