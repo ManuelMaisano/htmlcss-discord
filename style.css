@@ -20,6 +20,23 @@ ul {
 header{
     background-color: var(--color-header-bg);
     color: var(--color-scondary);
+}   
+.btn-head{
+    padding: 12px 15px;
+    border-radius: 25px;
+    color: var(--color-primary);
+    font-size: 15px;
+    border: none;
+}
+nav.d-flex a {
+    color: var(--color-scondary);
+    justify-content: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+nav.d-flex a:hover{
+    text-decoration: underline;
 }
 footer{
     background-color: var(--color-primary);
@@ -34,6 +51,9 @@ footer{
 
 body{
     font-family: 'Noto Sans', sans-serif;
+}
+h1{
+    font-size: 40px;
 }
 h2{
     font-size: 35px;
@@ -87,14 +107,6 @@ footer{
     max-width: 100%;
     padding: 40px 20px 10px;
 }    
-footer div:last-child button {
-    background-color: #7289DA;
-    padding: 12px 15px;
-    border-radius: 25px;
-    font-size: 15px;
-    color: var(--color-scondary);
-    margin-right: 0px;
-    border: none;
 
 
 }
@@ -109,13 +121,21 @@ footer div:first-child {
 
 
 }
+footer div:last-child button {
+    background-color: #7289DA;
+    padding: 12px 15px;
+    border-radius: 25px;
+    font-size: 15px;
+    color: var(--color-scondary);
+    margin-right: 0px;
+    border: none;
+}   
 
 footer div:last-child {
     padding: 2px;
     border-top: 2px solid var(--color-contrast);
 
 }
-
 footer li>a {
     color: var(--color-scondary);
     font-size: 13px;
