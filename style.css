@@ -95,7 +95,12 @@ h2{
 }
 .bg-stars{
     background-image:url(./discord-assets/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 2em;
+    margin-top: 10px;
     text-align: center;
+
     
 }
 .left img{
@@ -108,8 +113,6 @@ footer{
     padding: 40px 20px 10px;
 }    
 
-
-}
 footer li img{
     width: 40px;
 }
@@ -140,4 +143,19 @@ footer li>a {
     color: var(--color-scondary);
     font-size: 13px;
     text-decoration: none;
+}
+.padding-button {
+    padding: 12px 15px;
+}
+section#tecnology img {
+    width: 100%;
+
+}
+.flex-column{
+    flex-direction: column;
+}
+section#call-to-action button {
+    color: var(--color-scondary);
+    background-color: #7289DA;
+
 }
